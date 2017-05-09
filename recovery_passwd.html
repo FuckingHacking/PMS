@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Recovery</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    <body>
+        <form class="register" action="/cgi-bin/main.py" method="POST">
+            <h2>Enter your email. We send you a message</h2>
+            <input type="email" name="email_recovery" placeholder="email" pattern="^([a-zA-Z\-0-9_\.']{1,64}@[a-zA-Z\-0-9_]{1,30}\.[a-zA-Z\-0-9_]{2,6})$" required><br>
+            <input class="input-button" type="submit" value="Send">
+        </form>
+    </body>
+</html>

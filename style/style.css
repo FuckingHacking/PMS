@@ -1,0 +1,146 @@
+body {
+    background: url("../img/bg.jpg");
+    background-attachment: fixed;
+}
+
+a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5722;
+}
+
+h2 {
+    margin: 0px 0 0 9px;
+    color: #fff;
+    font: 20px sans-serif;
+}
+
+input {
+    height: 25px;
+    width: 200px;
+    margin: 7px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    /*background: rgba(255, 255, 255, 0.6);*/
+}
+
+.main-block {
+    position: relative;
+    width: 630px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.login {
+    position: relative;
+    width: 230px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.register {
+    position: relative;
+    width: 230px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.input-button {
+    width: 212px;
+    color: #2196F3;
+    cursor: pointer
+}
+
+.input-button:hover {
+    background: #bbb;
+    color: #044ff3;
+}
+
+.but {
+    padding: 7px;
+    background: #407e9c;
+    border-radius: 7px;
+    cursor: pointer
+}
+
+.but:hover {
+    background: #295e9c;
+}
+
+.options {
+    width: 470px;
+}
+
+.circular-boundaries {
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 9px;
+}
+
+.change {
+    height: 30px;
+    width: 150px;
+    color: #fff;
+}
+
+.error {
+    text-align: center;
+    font-size: 19px;
+    color: #407e9c;
+}
+
+.user-data {
+    position: relative;
+    height: 117px;
+}
+
+.avatar {
+    position: absolute;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #E91E63;
+    border-radius: 51px;
+}
+.nickname {
+    position: absolute;
+    top: 41px;
+    left: 127px;
+    color: #49a8e9;
+}
+
+.logout {
+    position: absolute;
+    top: 36px;
+    right: 10px;
+}
+
+.notification {
+    position: fixed;
+    bottom: 0;
+    width: 30%;
+    left: 35%;
+    padding: 7px;
+    background: rgba(255, 255, 255, 0.48);
+    border-radius: 9px 9px 0 0;
+    text-align: center;
+    font: 16px sans-serif;
+    color: #fff;
+}

@@ -1,0 +1,42 @@
+<div class="user-data">
+    <img src="../../img/{avatar}" alt="" class="avatar">
+    <h2 class="nickname">{user_login}</h2>
+    <a href="logout.py" >
+        <div class="but logout">
+            Logout
+        </div>
+    </a>
+</div>
+<hr>
+
+<table class="options">
+    <tr>
+        <td>You mail:</td>
+        <form action="../cgi-bin/main.py" method="post">
+            <td><input type="email" size="40" name="change_mail" value="{mail}"></td>
+            <td><input class="but change" type="submit" value="change email"></td>
+        </form>
+    </tr>
+    <tr>
+        <td>Password:</td>
+        <form action="../cgi-bin/main.py" method="post">
+            <td class="circular-boundaries">
+                <input type="password" size="40" name="new_passwd" placeholder="New password">
+                <input type="password" size="40" name="old_passwd" placeholder="Old password for verification">
+            </td>
+            <td><input class="but change" type="submit" value="change password"></td>
+        </form>
+    </tr>
+    <tr>
+        <td>You age:</td>
+        <form action="../cgi-bin/main.py" method="post">
+            <td><input type="text" size="40" name="new_age" value="{age}"><br></td>
+            <td><input class="but change" type="submit" value="change age"></td>
+        </form>
+    </tr>
+</table>
+
+ <center><form action="../cgi-bin/main.py" method="post">
+     <input type="text" size="40" name="delete_account" style="display: none" value="del_my_acc"><br>
+     <input class="but change" type="submit" value="delete this account">
+</form></center>
